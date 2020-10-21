@@ -1,0 +1,30 @@
+#social {
+    max-height: 90px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:block;
+    margin:auto;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+input[type=email], input[type=text], textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+.justify {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+
+#phone {
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
