@@ -12,11 +12,10 @@ class Contact extends Component {
 
   render() {
     return (
-      <div>
+      <div id="contactRoot">
         <Navbar />
 
-        <h1 className="text-center">test</h1>
-        <main>
+        <main className="mainTop">
           <div className="container-fluid">
             <article className="socialmedia">
 

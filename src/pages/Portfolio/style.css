@@ -1,11 +1,46 @@
+#portfolioRoot {
+    margin: 0;
+} 
+
 #portfolioheading {
     width:100%;
 }
 
-#portfolio {
+.portfolio {
     width:100%;
-    /* margin-left:-30px;
-    margin-right:-60px; */
+    margin: 0;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+#front {
+    background-color: #b3e6cc;
+    float: left;
+    width: 33%;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+} 
+
+#back {
+    background-color: palegoldenrod;
+    float: left;
+    width: 33%;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+#other {
+    background-color: #ffcc99;
+    float: left;
+    width: 34%;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
 }
 
 #button {
@@ -14,4 +49,71 @@
 
 .mainTop { 
     margin-top:140px;
+}
+
+@media screen and (max-width: 950px) {
+    #portfolioRoot { 
+        margin-top: 180px;
+    }
+}  
+
+@media screen and (max-width: 900px) {
+    .card { 
+        width: 14em;
+        padding-bottom: 5px;
+    }
+    .portfolioButton {
+        margin: 1px;
+        padding: 1px;
+        width: 5em;
+        display: inline-flex;
+    }
+    #friends {
+        margin: 1px;
+        padding: 1px;
+        width: 8em;
+        display: inline-flex;
+    }
+}  
+@media screen and (max-width: 900px) {
+    .card { 
+        width: 12em;
+    }
+}  
+@media screen and (max-width: 700px) {
+    .card { 
+        width: 10em;
+    }
+    .portfolioh2 {
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+    }
+    .portfolioButton {
+        width: 4.8em;
+        font-size: 0.8em;
+    }
+    #friends, .animationBtn {
+        margin: 0;
+    
+        margin-right: 1px;
+        font-size: 0.8em;
+    }
+}  
+
+@media screen and (max-width: 600px) {
+    #front, #back, #other { 
+        width: 100%;
+    }
+    .card { 
+        width: 16em;
+    }
+    .portfolioButton {
+        width: 5em;
+        font-size: 1em;
+        margin: 5px;
+    }
+    #friends, .animationBtn {
+        margin: 5px;
+        font-size: 1em;
+    }  
 }

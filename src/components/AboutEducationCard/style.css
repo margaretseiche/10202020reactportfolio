@@ -1,27 +1,56 @@
-.card {
-  background: transparent;
-  border-radius: 2px;
-  height: 320px;
-  margin: 1.2rem;
-  position: relative;
-  width: 280px;
-  text-align: left;
+.educationP {
+  padding: 0;
+  margin-bottom: 0;
 }
 
-.card > .img-container {
-  height: 60%;
-  overflow: hidden;
-  text-align: center;
+.about-image {
+  max-height: 90px;
+  margin-bottom: 15px;
 }
 
-.card > .img-container > img {
-  width: 100%
+.float-left {
+  float: left;
+  margin-right: 5px;
 }
 
-.card > .content {
-  background: transparent;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 15px;
+/* .aboutTitle {
+  margin-left: 0px;
+  margin-right: 0px;
+} */
+
+@media screen and (max-width: 1100px) {
+  .about-image {
+      max-height: 60px;
+  }
+  .educationH {
+    font-size: 14px;
+  }
+  .educationP {
+    font-size: 14px;
+  }
 }
 
+@media screen and (max-width: 903px) {
+  .about-image {
+      max-height: 50px;
+  }
+  .educationH {
+    margin-bottom: 0;
+  }
+  .educationP {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-image {
+      max-height: 90px;
+  }
+  .educationH {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  .educationP {
+    font-size: 16px;
+  }
+}

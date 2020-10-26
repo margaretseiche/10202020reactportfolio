@@ -1,3 +1,7 @@
+#homeRoot {
+    margin: 0;
+} 
+
 .background {
     background-image: url("/assets/conference.JPG");
     background-size: cover;
@@ -47,10 +51,23 @@
     border-radius: 10px;
 }   
 
-  @media screen and (max-width: 1100px) {
+  /* @media screen and (max-width: 1100px) {
     body {
         padding: 10px;
     } 
+  } */
+
+  @media screen and (max-width: 1100px) {
+    main {
+        margin-top: 140px;
+    }  
+    #indexmain {
+        margin-top: 90px;
+    }  
+    .background {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
   }
     
   @media screen and (max-width: 945px) {
@@ -66,17 +83,23 @@
         width:510px;
     }
     main {
-        margin-top: 170px;
-      }  
+        margin-top: 140px;
+    }  
+    #indexmain {
+        margin-top: 150px;
+    }  
   }
   
   
   @media screen and (max-width: 840px) {
     main {
-      margin-top: 170px;
+      margin-top: 140px;
     }
-    .container{
+    .indexmain {
         margin:auto;
+        margin: 0;
+        padding:20px;
+        width: 240vw;
     }
     #background-picture {
         width: 100%;
@@ -96,7 +119,25 @@
         padding-left: 0;
         padding-right: 0;
     }
-    .container {
+    .biobox {
         margin-left: 0px;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    #index-bio-intro {
+        font-size: 24px;
+    }
+    #main-bio {
+        margin-left: 0px;
+        width: 80%;
+    }  
+    #intro {
+        margin-left: 0; 
+        margin-right: 0px;
+    }
+    #bio-image {
+        margin-left: 20px;
+        width: 135px;
     }
   }

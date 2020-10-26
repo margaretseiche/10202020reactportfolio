@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar";
 import PortfolioCard from "../../components/PortfolioCard";
-import projects from "../../projects.json";
+import PortfolioOther from "../../components/PortfolioOther";
+import frontprojects from "../../frontprojects.json";
+import backprojects from "../../backprojects.json";
 import "./style.css";
 
 const style = {
@@ -13,46 +15,84 @@ const style = {
 
 class Portfolio extends Component {
   state = {
-    projects
+    frontprojects,
+    backprojects
   };
 
   render() {
     return (
-      <div>
+      <div id="portfolioRoot">
         <Navbar />
         <main className="mainTop">
           <div className="container-fluid">
             <article id="parentportfolio">
-              <div className="row articleHeading" id="portfolioheading">
+
+              <div className="row articleHeading" >
                 <div className="col-md-12">
                   <h3>Check out some of my projects</h3>
                 </div>
               </div>
 
-              <div className="row col-md-12" id="portfolio">
+              <div className="row" className="portfolio">
+                  <div id="front">
 
-                {this.state.projects.map(project => (
+                    <h2 className="portfolioh2">Front-End</h2>
+                    <div class="row">
 
-                  <PortfolioCard
+                      <div class="col-sm">
+                        {this.state.frontprojects.map(frontproject => (
 
-                    id={project.id}
-                    key={project.id}
-                    title={project.title}
-                    github={project.github}
-                    deployed={project.deployed}
-                    image={project.image}
-                    alt={project.alt}
-                    text={project.text}
+                          <PortfolioCard
 
-                  />
-                ))}
+                            id={frontproject.id}
+                            key={frontproject.id}
+                            title={frontproject.title}
+                            github={frontproject.github}
+                            deployed={frontproject.deployed}
+                            image={frontproject.image}
+                            alt={frontproject.alt}
+                            text={frontproject.text}
 
+                          />
+                        ))}
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="back">
+                    <h2 className="portfolioh2">Back-End</h2>
+                    <div class="row">
+
+                      <div class="col-sm">
+                        {this.state.backprojects.map(backproject => (
+
+                          <PortfolioCard
+
+                            id={backproject.id}
+                            key={backproject.id}
+                            title={backproject.title}
+                            github={backproject.github}
+                            deployed={backproject.deployed}
+                            image={backproject.image}
+                            alt={backproject.alt}
+                            text={backproject.text}
+
+                          />
+                        ))}
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <PortfolioOther />
+
+                {/* </div> */}
               </div>
-
             </article>
           </div>
-        </main>
-      </div>
+        </main >
+      </div >
     );
   }
 }

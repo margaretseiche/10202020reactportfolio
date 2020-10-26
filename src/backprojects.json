@@ -1,0 +1,47 @@
+[
+  {
+    "id": 6,
+    "title": "Project Planning App",
+    "github": "https://github.com/geodudedude/4corners/",
+    "deployed": "https://four-corner.herokuapp.com/",
+    "image": "/assets/4corners.JPG",
+    "alt": "Project Planning App",
+    "text": "Worked with 4 developers to build a project tool with task tracking, chat feature, and resources"
+  },
+  {
+    "id": 7,
+    "title": "Team Directory",
+    "github": "https://github.com/margaretseiche/07162020-EmployeeDirectory",
+    "deployed": "https://youtu.be/yS8ZmDgy3n8",
+    "image": "/assets/EmployeeDirectory.JPG",
+    "alt": "team directory",
+    "text": "Developed a Command Line Interface for creating a team profile webpage with Handlebars"
+  },
+  {
+    "id": 8,
+    "title": "ReadMe Generator",
+    "github": "https://github.com/margaretseiche/07112020-ReadmeGenerator",
+    "deployed": "https://youtu.be/C4KLrUpt-M8",
+    "image": "/assets/ReadMeDemo.JPG",
+    "alt": "ReadMe generator",
+    "text": "Created a command line interface for developers to make formatted ReadMe files"
+  },
+  {
+    "id": 9,
+    "title": "Workout App",
+    "github": "https://github.com/margaretseiche/09022020-WorkoutTracker",
+    "deployed": "https://immense-ridge-32351.herokuapp.com/",
+    "image": "/assets/fitness.JPG",
+    "alt": "Workout App",
+    "text": "Created a fitness app to track daily workouts using a Mongoose database"
+  },
+  {
+    "id": 10,
+    "title": "Budget Tracker",
+    "github": "https://github.com/margaretseiche/09102020-BudgetTracker",
+    "deployed": "https://powerful-reaches-00668.herokuapp.com/",
+    "image": "/assets/budget.JPG",
+    "alt": "Budget Tracker",
+    "text": "Designed a budget app that allows offline records to be synced later with Mongo database"
+  }
+]

@@ -12,6 +12,7 @@ const style = {
 
 function Home() {
   return (
+    <div id="homeRoot">
     <div className="background">
 
       <Navbar />
@@ -29,6 +30,7 @@ function Home() {
           </section>
         </Bio>
       </main>
+    </div>
     </div>
   );
 }

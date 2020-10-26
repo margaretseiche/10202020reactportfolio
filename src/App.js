@@ -6,6 +6,8 @@ import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
 import NoMatchPage from "./pages/NoMatch";
 import Footer from "./components/Footer";
+import "./reset.css";
+import './index.css';
 
 class App extends React.Component {
   render() {

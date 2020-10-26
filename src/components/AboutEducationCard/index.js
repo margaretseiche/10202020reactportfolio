@@ -3,18 +3,23 @@ import "./style.css";
 
 function AboutEducationCard(props) {
   return (
-    <div className="card">
-      <div className="img-container">
-        <img className="educationImage" alt={props.alt} src={props.image} />
+    // <div className="col-md-4 aboutTitle">
+    <div className="col-md-4">
+
+      <div className="row">
+        <h4 >{props.title}</h4>
       </div>
-      <div className="content">
-        <h5>{props.title}</h5>
-        <p>{props.name}</p>
-        <p>{props.line1}</p>
-        <p>{props.line2}</p>
-        <p>{props.line3}</p>
+      <div className="row">
+        <img className="about-image float-left" alt={props.alt} src={props.image} />
+        <div className="float-left">
+          <h6 className="educationH">{props.name}</h6>
+          <p className="educationP">{props.line1}</p>
+          <p className="educationP">{props.line2}</p>
+          <p className="educationP">{props.line3}</p>
+        </div>
       </div>
     </div>
+
   );
 }
 
