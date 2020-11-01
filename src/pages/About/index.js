@@ -9,9 +9,7 @@ import "./style.css";
 // function About() {
 class About extends Component {
   state = {
-    // schools: ""
     schools,
-    // works: ""
     works
   };
 
@@ -32,14 +30,15 @@ class About extends Component {
                 <div className="col-md-4">
                   <img id="about-image" src="/assets/MargaretSeiche.JPG" className="float-left"
                     alt="Margaret has brown hair and eyeglasses." title="headshot of Margaret Seiche" />
-                  <p>Experience leading remote teams for large-scale projects with overlapping deadlines</p>
+                  <p>Experience leading remote teams for large-scale projects with overlapping deadlines. <a href="/assets/Resume_MargaretSeiche.pdf" id="resumelink" target="_blank">Resume Link</a>
+                  </p>
                 </div>
 
                 <div className="col-md-4">
                   <h4>New York City</h4>
                   <ul>
                     <li id="list">3 years in sales</li>
-                    <li id="list">Currently studying coding remotely</li>
+                    <li id="list">Just completed 6 month coding course</li>
                   </ul>
                 </div>
 

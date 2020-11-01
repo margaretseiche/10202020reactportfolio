@@ -23,6 +23,11 @@
     margin-top: 100px;
 }
 
+#resumelink {
+    text-decoration: underline;
+    color: maroon;
+}
+
 @media screen and (max-width: 950px) {
     #aboutRoot { 
         margin-top: 180px;
