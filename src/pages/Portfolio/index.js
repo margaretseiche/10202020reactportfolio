@@ -6,13 +6,6 @@ import frontprojects from "../../frontprojects.json";
 import backprojects from "../../backprojects.json";
 import "./style.css";
 
-const style = {
-  image: {
-    marginRight: "10px"
-  },
-
-}
-
 class Portfolio extends Component {
   state = {
     frontprojects,
@@ -37,9 +30,9 @@ class Portfolio extends Component {
                   <div id="front">
 
                     <h2 className="portfolioh2">Front-End</h2>
-                    <div class="row">
+                    <div className="row">
 
-                      <div class="col-sm">
+                      <div className="col-sm">
                         {this.state.frontprojects.map(frontproject => (
 
                           <PortfolioCard
@@ -62,9 +55,9 @@ class Portfolio extends Component {
 
                   <div id="back">
                     <h2 className="portfolioh2">Back-End</h2>
-                    <div class="row">
+                    <div className="row">
 
-                      <div class="col-sm">
+                      <div className="col-sm">
                         {this.state.backprojects.map(backproject => (
 
                           <PortfolioCard

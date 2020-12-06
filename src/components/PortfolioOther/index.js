@@ -16,9 +16,9 @@ function PortfolioOther() {
           <p className="card-text">I re-designed a trilingual website, taking it from text-heavy to personable.</p>
 
           <a href="../../../assets/Churchwebsite_originalversion.pdf" className="portfolioButton"
-            target="_blank">Before</a>
+            target="_blank" rel="noopener noreferrer">Before</a>
           <a href="https://www.fbcflushing.org/" className="portfolioButton"
-            target="_blank">After</a>
+            target="_blank" rel="noopener noreferrer">After</a>
         </div>
       </div>
 
@@ -46,7 +46,7 @@ function PortfolioOther() {
           <h5 className="card-title">Non-Profit Operations</h5>
           <p className="card-text">With a team, grew retail and event surpluses 64% annually for 10 years.</p>
           <a href="../../../assets/Friends2006to2016.pdf" id="friends" 
-            target="_blank">Read a summary</a>
+            target="_blank" rel="noopener noreferrer">Read a summary</a>
         </div>
 
       </div>
@@ -63,11 +63,11 @@ function PortfolioOther() {
           <h5 className="card-title">Animation</h5>
           <p className="card-text">Telling a story to children over Zoom is so much more fun with animation.</p>
           <a href="https://scratch.mit.edu/projects/393666371" className="animationBtn"
-            target="_blank">Part 1</a>
+            target="_blank" rel="noopener noreferrer">Part 1</a>
           <a href="https://scratch.mit.edu/projects/394058364/" className="animationBtn"
-            target="_blank">Part 2</a>
+            target="_blank" rel="noopener noreferrer">Part 2</a>
           <a href="https://scratch.mit.edu/projects/394083008" className="animationBtn"
-            target="_blank">Part 3</a>
+            target="_blank" rel="noopener noreferrer">Part 3</a>
         </div>
 
       </div>
