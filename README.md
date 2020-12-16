@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/Number%20of%20Contributors-1-blue)
 ![](https://img.shields.io/badge/License-MIT-red)
 
-* Deployed on Heroku at https://reactportfolio-mcs.herokuapp.com/portfolio
+* Deployed on Heroku at https://reactportfolio-mcs.herokuapp.com/portfolio{:target="_blank" rel="noopener"}
 * Used React to break the application framework into components
 
 ![Snapshot of Deployed Version](/public/portfoliodeploy.JPG)
