@@ -37,8 +37,8 @@ class About extends Component {
                 <div className="col-md-4">
                   <h4>New York City</h4>
                   <ul>
+                    <li id="list">6 month coding course</li>
                     <li id="list">3 years in sales</li>
-                    <li id="list">Just completed 6 month coding course</li>
                   </ul>
                 </div>
 
