@@ -1,17 +1,21 @@
-import React from "react";
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
-import Home from "./pages/Home/index";
-import About from "./pages/About/index";
-import Portfolio from "./pages/Portfolio/index";
-import Contact from "./pages/Contact/index";
-import NoMatchPage from "./pages/NoMatch";
-import Footer from "./components/Footer";
 import "./reset.css";
 import './index.css';
+
+const Home = lazy(() => import ("./pages/Home/index"));
+const About = lazy(() => import ("./pages/About/index"));
+const Portfolio = lazy(() => import ("./pages/Portfolio/index"));
+const Contact = lazy(() => import ("./pages/Contact/index"));
+const NoMatchPage = lazy(() => import ("./pages/NoMatch"));
+const Footer = lazy(() => import ("./components/Footer"));
+
+const renderLoader = () => <p>Loading</p>;
 
 class App extends React.Component {
   render() {
     return (
+      <Suspense fallback={renderLoader()}>
       <Router>
             <Switch>
               <Route exact path="/" component={Home} />
@@ -23,6 +27,7 @@ class App extends React.Component {
             </Switch>
           <Footer />
       </Router>
+      </Suspense>
     );
   }
 }

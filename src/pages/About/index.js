@@ -6,7 +6,6 @@ import schools from "../../abouted.json";
 import works from "../../aboutwork.json";
 import "./style.css";
 
-// function About() {
 class About extends Component {
   state = {
     schools,
