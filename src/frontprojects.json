@@ -11,8 +11,8 @@
   {
     "id": 2,
     "title": "Password Generator",
-    "github": "https://github.com/margaretseiche/05212020-Password-Generator",
-    "deployed": "https://margaretseiche.github.io/05212020-Password-Generator/",
+    "github": "https://github.com/margaretseiche/Password-Generator",
+    "deployed": "https://margaretseiche.github.io/Password-Generator/",
     "image": "/assets/PasswordGenerator.JPG",
     "alt": "snapshot of password generator",
     "text": "Created a means for users to generate random passwords with specified criteria"
@@ -20,8 +20,8 @@
   {
     "id": 3,
     "title": "Day Planner with Weather Update",
-    "github": "https://github.com/margaretseiche/07072020-DayPlannerAndWeather",
-    "deployed": "https://margaretseiche.github.io/07072020-DayPlannerAndWeather/",
+    "github": "https://github.com/margaretseiche/DayPlannerAndWeather",
+    "deployed": "https://margaretseiche.github.io/DayPlannerAndWeather/",
     "image": "/assets/DayPlanner.JPG",
     "alt": "day planner",
     "text": "Used Moment.js, local storage, and a weather API to create a scheduling app"
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "Burger App",
-    "github": "https://github.com/margaretseiche/08082020-Handlebars-Burgers",
+    "github": "https://github.com/margaretseiche/Handlebars-Burgers",
     "deployed": "https://mburgerapp.herokuapp.com",
     "image": "/assets/local4.JPG",
     "alt": "burger ordering application",
