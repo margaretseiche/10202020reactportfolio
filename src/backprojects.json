@@ -11,7 +11,7 @@
   {
     "id": 7,
     "title": "Team Directory",
-    "github": "https://github.com/margaretseiche/07162020-EmployeeDirectory",
+    "github": "https://github.com/margaretseiche/EmployeeDirectory",
     "deployed": "https://youtu.be/yS8ZmDgy3n8",
     "image": "/assets/EmployeeDirectory.JPG",
     "alt": "team directory",
@@ -20,7 +20,7 @@
   {
     "id": 8,
     "title": "ReadMe Generator",
-    "github": "https://github.com/margaretseiche/07112020-ReadmeGenerator",
+    "github": "https://github.com/margaretseiche/ReadmeGenerator",
     "deployed": "https://youtu.be/C4KLrUpt-M8",
     "image": "/assets/ReadMeDemo.JPG",
     "alt": "ReadMe generator",
@@ -29,7 +29,7 @@
   {
     "id": 9,
     "title": "Workout App",
-    "github": "https://github.com/margaretseiche/09022020-WorkoutTracker",
+    "github": "https://github.com/margaretseiche/WorkoutTracker",
     "deployed": "https://immense-ridge-32351.herokuapp.com/",
     "image": "/assets/fitness.JPG",
     "alt": "Workout App",
