@@ -25,8 +25,8 @@ function Home() {
           </section>
 
           <section id="main-bio">
-            <h2 id="index-bio-intro">Hi, I'm Margaret,<br /> a Full-Stack Developer.</h2>
-            <p>Are you re-envisioning event management<br /> to fit today's realities? <br /><span style={style.spanStyle}><b> I am.</b></span></p>
+            <h2 id="index-bio-intro">Hi, I'm Margaret,<br /> a Full-Stack Developer</h2>
+            <p>with experience in website management,<br /> marketing, finance, and event management. <br /></p>
           </section>
         </Bio>
       </main>
